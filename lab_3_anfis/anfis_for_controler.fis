@@ -1,0 +1,53 @@
+[System]
+Name='anfis_for_controler'
+Type='sugeno'
+Version=2.0
+NumInputs=2
+NumOutputs=1
+NumRules=9
+AndMethod='prod'
+OrMethod='probor'
+ImpMethod='prod'
+AggMethod='sum'
+DefuzzMethod='wtaver'
+
+[Input1]
+Name='x'
+Range=[-10 35]
+NumMFs=3
+MF1='in1mf1':'gaussmf',[9.20119546813465 -10.2790211672908]
+MF2='in1mf2':'gaussmf',[10.1324760250045 12.7323139286136]
+MF3='in1mf3':'gaussmf',[9.43268108053565 35.2634847595481]
+
+[Input2]
+Name='y'
+Range=[0 35]
+NumMFs=3
+MF1='in2mf1':'gaussmf',[7.63416429638358 0.191556448576838]
+MF2='in2mf2':'gaussmf',[7.65240745498516 17.8010907329504]
+MF3='in2mf3':'gaussmf',[7.73631848231117 34.8970924736076]
+
+[Output1]
+Name='z'
+Range=[-2 2]
+NumMFs=9
+MF1='out1mf1':'constant',[2.31984025161179]
+MF2='out1mf2':'constant',[1.38226181239308]
+MF3='out1mf3':'constant',[-0.209775445024377]
+MF4='out1mf4':'constant',[1.4735449515538]
+MF5='out1mf5':'constant',[0.330838054244089]
+MF6='out1mf6':'constant',[-1.15518891143412]
+MF7='out1mf7':'constant',[0.205661913276497]
+MF8='out1mf8':'constant',[-0.290741200767882]
+MF9='out1mf9':'constant',[-2.30537739219037]
+
+[Rules]
+1 1, 1 (1) : 1
+1 2, 2 (1) : 1
+1 3, 3 (1) : 1
+2 1, 4 (1) : 1
+2 2, 5 (1) : 1
+2 3, 6 (1) : 1
+3 1, 7 (1) : 1
+3 2, 8 (1) : 1
+3 3, 9 (1) : 1
