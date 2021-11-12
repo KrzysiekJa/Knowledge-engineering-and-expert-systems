@@ -14,6 +14,8 @@
 
 ###### 1)
 
+![](https://github.com/KrzysiekJa/Knowledge-engineering-and-expert-systems/blob/main/pictures/rules_lab_01.png)
+
 ![](https://github.com/KrzysiekJa/Knowledge-engineering-and-expert-systems/blob/main/pictures/surf_lab_01.png)
 
 ###### 2)
