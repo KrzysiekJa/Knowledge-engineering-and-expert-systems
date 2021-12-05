@@ -5,6 +5,7 @@
 1) Sprinkler controller for watering intensity for watering of plants (Mamdani).
 2) SISO and MISO (Sugeno).
 3) Fuzzy controller that controls the air conditioning in the room based on: air temperature in the room, air temperature outside the room.
+4) Individual project made with python support..
 ```
 
 ### Technology:
