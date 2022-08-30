@@ -39,7 +39,7 @@
 
 ![](https://github.com/KrzysiekJa/Knowledge-engineering-and-expert-systems/blob/main/pictures/project_decision_tree.png)
 
-![](https://github.com/KrzysiekJa/Knowledge-engineering-and-expert-systems/blob/main/pictures/project_talbe.png)
+<img src="https://github.com/KrzysiekJa/Knowledge-engineering-and-expert-systems/blob/main/pictures/project_talbe.png" alt="project_talbe" width="400" height="600"/>
 
 ![](https://github.com/KrzysiekJa/Knowledge-engineering-and-expert-systems/blob/main/pictures/project_output.png)
 
